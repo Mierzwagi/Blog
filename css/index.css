@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Estilização NAVEGAÇÃO */
+
+.menu-topo {
+    background-color: #2B392C;
+    width: 100%;
+}
+
+nav.navegacao {
+    display: flex;
+    margin-right: 4%;
+    align-items: center;
+}
+
+.logo img{
+    width: 86%;
+    margin: 8%;
+    /* margin-right: -27%; */
+    margin-left: -80%;
+}
+
+.menu {
+    margin-right: 21%;
+}
+
+.menu ul {
+    display: flex;
+    gap: 38%;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.pesquisa img{
+    margin-bottom: 2%;
+}
+
+.pesquisa input{
+    border: none;
+    /* border-radius: 10px; */
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: solid 2px white;
+    margin-bottom: 2%;
+}
+
+/* Redes sociais */
+.midia {
+    background-color: white;
+    float: right;
+    margin-top: -5%;
+    padding: 10px;
+    position: absolute;
+    /* float: right; */
+    margin-left: 95.8%;
+}
+
+/* Estilização caixa verde e Imagens de fundo */
+.container-1{
+    width: 100%;
+}
+
+.images-back {
+    display: flex;
+    gap: 20px;
+}
+
+.fundo-img1{
+    /* background-image: url(../img/img1.svg); */
+    min-height: 480px;
+    background-size: cover;
+    width: 35%;
+    animation: animate1 20s infinite;
+}
+
+.fundo-img2 {
+    /* background-image: url(../img/img2.svg); */
+    min-height: 480px;
+    background-size: cover;
+    width: 35%;
+    animation: animate2 20s infinite;
+}
+
+.fundo-img3 {
+    /* background-image: url(../img/img3.svg); */
+    min-height: 480px;
+    background-size: cover;
+    width: 35%;
+    animation: animate3 20s infinite;
+}
+
+@keyframes animate1{
+    0%, 100%{
+        background-image: url(../img/img1.svg);
+    }
+    25%{
+      background-image: url(../img/img5.svg);
+    }
+    50%{
+      background-image: url(../img/img7.svg);
+    }
+    75%{
+      background-image: url(../img/img3.svg);
+    }
+    100%{
+      background-image: url(../img/img4.svg);
+    }
+  }
+  @keyframes animate2{
+    0%, 100%{
+        background-image: url(../img/img2.svg);
+    }
+    25%{
+      background-image: url(../img/img4.svg);
+    }
+    50%{
+      background-image: url(../img/img6.svg);
+    }
+    75%{
+      background-image: url(../img/img8.svg);
+    }
+    100%{
+      background-image: url(../img/img10.svg);
+    }
+  }
+  @keyframes animate3{
+    0%, 100%{
+        background-image: url(../img/img3.svg);
+    }
+    25%{
+      background-image: url(../img/img9.svg);
+    }
+    50%{
+      background-image: url(../img/img2.svg);
+    }
+    75%{
+      background-image: url(../img/img5.svg);
+    }
+    100%{
+      background-image: url(../img/img8.svg);
+    }
+  }
+
+.min-container{
+    background-color: #2B392C;
+    height: 240px;
+    width: 46%;
+    margin-top: 27%;
+    position: absolute;
+    margin-left: 27%;
+}
+
+
+
+
+/* Estilização Seção Posts */
+
+.container-2{
+    margin-top: 15%;
+    width: 100%;
+}
+
+.container-2 h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+.hrPost{
+    width: 14%;
+    margin-bottom: 3%;
+}
+
+.post{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.post article{
+    margin: 2%;
+    border: solid 2px black;
+}
+
+.artigos h3{
+    padding: 2%;
+    font-size: 26px;
+    margin-left: 3%;
+}
+
+.artigos hr{
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 5%;
+}
+
+.descricao p{
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.adm{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.adm p{
+    margin-right: 70%;
+}
+.usuario{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(171, 175, 174);
+    border-radius: 100%;
+}
+
+hr{
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+
+
+
+/* Estilização Galeria */
+
+.container-3{
+    width: 100%;
+    background-color: #2B392C;
+    margin-top: 10%;
+}
+.galeria{
+   width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.imgGaleria{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.galeria img{
+    margin: 1%;
+}
+
