@@ -109,16 +109,16 @@ nav.navegacao {
         background-image: url(../img/img1.svg);
     }
     25%{
-      background-image: url(../img/img5.svg);
+      background-image: url(https://images.pexels.com/photos/6397691/pexels-photo-6397691.jpeg?auto=compress&cs=tinysrgb&w=600);
     }
     50%{
-      background-image: url(../img/img7.svg);
+      background-image: url(https://images.pexels.com/photos/6577281/pexels-photo-6577281.jpeg?auto=compress&cs=tinysrgb&w=600);
     }
     75%{
-      background-image: url(../img/img3.svg);
+      background-image: url(https://images.pexels.com/photos/18417372/pexels-photo-18417372/free-photo-of-suv-utilitario-barbaro-cruel.jpeg?auto=compress&cs=tinysrgb&w=600);
     }
     100%{
-      background-image: url(../img/img4.svg);
+      background-image: url(https://images.pexels.com/photos/18417377/pexels-photo-18417377/free-photo-of-suv-utilitario-retroiluminado-iluminado-por-tras.jpeg?auto=compress&cs=tinysrgb&w=600);
     }
   }
   @keyframes animate2{
@@ -126,16 +126,16 @@ nav.navegacao {
         background-image: url(../img/img2.svg);
     }
     25%{
-      background-image: url(../img/img4.svg);
+      background-image: url(https://images.pexels.com/photos/12168848/pexels-photo-12168848.jpeg?auto=compress&cs=tinysrgb&w=600);
     }
     50%{
-      background-image: url(../img/img6.svg);
+      background-image: url(https://images.pexels.com/photos/18417377/pexels-photo-18417377/free-photo-of-suv-utilitario-retroiluminado-iluminado-por-tras.jpeg?auto=compress&cs=tinysrgb&w=600);
     }
     75%{
-      background-image: url(../img/img8.svg);
+      background-image: url(../img/img3.svg);
     }
     100%{
-      background-image: url(../img/img10.svg);
+      background-image: url(../img/img1.svg);
     }
   }
   @keyframes animate3{
@@ -143,16 +143,16 @@ nav.navegacao {
         background-image: url(../img/img3.svg);
     }
     25%{
-      background-image: url(../img/img9.svg);
+      background-image: url(https://images.pexels.com/photos/18417372/pexels-photo-18417372/free-photo-of-suv-utilitario-barbaro-cruel.jpeg?auto=compress&cs=tinysrgb&w=600);
     }
     50%{
       background-image: url(../img/img2.svg);
     }
     75%{
-      background-image: url(../img/img5.svg);
+      background-image: url(https://images.pexels.com/photos/17046478/pexels-photo-17046478/free-photo-of-mosteiro-de-santa-catalina-de-siena-arequipa.jpeg?auto=compress&cs=tinysrgb&w=600);
     }
     100%{
-      background-image: url(../img/img8.svg);
+      background-image: url(https://images.pexels.com/photos/6397691/pexels-photo-6397691.jpeg?auto=compress&cs=tinysrgb&w=600);
     }
   }
 
